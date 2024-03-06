@@ -1,0 +1,19 @@
+.topmenu {
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .link {
+      color: yellow;
+
+      &--highlighted {
+        text-decoration: none;
+        color: red;
+      }
+    }
+
+  }
+
+}
